@@ -1,0 +1,330 @@
+    1  ls
+    2  bioinfo.course.data command_line_course galaxy lost+found refs
+    3  ls/
+    4  ls
+    5  ls
+    6  pwd
+    7  mkdir Learning_unix
+    8  ls
+    9  command_line_course Learning_unix linux_bootcamp
+   10  ls command_line_course Learning_unix linux_bootcamp
+   11  ls learning_unix
+   12  pwd
+   13  cd Learning_unix
+   14  mkdir Outer_directory
+   15  cd outer_directory
+   16  mkdir inner_directory
+   17  pwd
+   18  mkdir Inner_directory
+   19  cd inner_directory
+   20  cd/
+   21  cd
+   22  cd home
+   23  cd users
+   24  cd masenya
+   25  pwd
+   26  cd /users/masenya/
+   27  cd /users/masenya
+   28  cd /c/users/masenya/
+   29  cd c/users/masenya
+   30  cd..
+   31  cd Learning_unix/
+   32  cd..
+   33  cd ..
+   34  cd ..
+   35  cd ../..
+   36  cd /c/users/masenya/Learning_unix/
+   37  cd /tmp
+   38  pwd
+   39  cd /
+   40  pwd
+   41  cd ~
+   42  pwd
+   43  cd ~/Learning_unix
+   44  ls
+   45  ls ../../
+   46  ls -1 /c
+   47  ls -1 /c total 12
+   48  ls -l
+   49  ls -R
+   50  ls lh
+   51  ls -l /c
+   52  man la
+   53  man ls
+   54  man cd
+   55  man b
+   56  pwd
+   57  rmdir Inner_directory/
+   58  rmdir Inner_directory
+   59  cd 
+   60  cd Learning_unix
+   61  cd Outer_directory
+   62  rmdir Inner_directory
+   63  ls
+   64  cd..
+   65  cd ..
+   66  rmdir outer_directory
+   67  ls
+   68  pwd
+   69  mkdir git-basic-exercises
+   70  cd git-basic-exercises
+   71  ls -a
+   72  git init
+   73  ls -a
+   74  git status
+   75  touch README.md
+   76  ls -a
+   77  git status
+   78  git log
+   79  git add
+   80  git add README.md
+   81  git status
+   82  git rm --cached README.md
+   83  git status
+   84  git add README.md
+   85  git status
+   86  git commit -m "initial commit"
+   87  git config --global user.email "lesibamasenya94@gmail.com"
+   88  git config --global user.name "Lesiba Masenya"
+   89  git commit -m "initial commit"
+   90  git log
+   91  q
+   92  git log
+   93  nano README.md
+   94  cat README.md
+   95  git stats
+   96  git status
+   97  git commit -m "second commit"
+   98  git add README.md
+   99  git commit -m "second commit"
+  100  git status
+  101  git log
+  102  nano README.md
+  103  cat README.md
+  104  git status
+  105  git add README.md
+  106  git commit -m "third commit"
+  107  git log
+  108  q
+  109  git checkout 1564f85d5cc9b916d308dd09c831244354f85858
+  110  cat README.md
+  111  git checkout main
+  112  git checkout master
+  113  cat README.md
+  114  git branch
+  115  git branch milkshake-flavours
+  116  git branch
+  117  git branch
+  118  git checkout milkshake-flavours
+  119  git branch
+  120  nano milkshake.md
+  121  git status
+  122  git add milkshake.md
+  123  git commit -m "added initial flavours"
+  124  git log
+  125  git checkout master
+  126  git branch history
+  127  checkout history
+  128  git checkout history
+  129  git log
+  130  git branch
+  131  history > history.txt
+  132  git add history.txt
+  133  git commit -m "added history"
+  134  git log
+  135  git checkout milkshake-flavours
+  136  git log
+  137  nano README.md
+  138  git checkout history
+  139  cat README.md
+  140  git add README.md
+  141  git commit -m "random readme changes"
+  142  git checkout history
+  143  git checkout milkshake-flavours
+  144  git log
+  145  nano README.md
+  146  git add README.md
+  147  git commit -m "random readme changes"
+  148  git checkout history
+  149  rm README.md
+  150  echo "booya" > README.md
+  151  git log
+  152  git checkout dc48d3f785f54ddb9a1655c949a5762997d4e470
+  153  checkout history
+  154  git log
+  155  git checkout master
+  156  checkout master
+  157  git branch
+  158  git checkout history
+  159  git log 
+  160  git reset --hard
+  161  git log
+  162  git reset --hard dc48d3f785f54ddb9a1655c949a5762997d4e470
+  163  git push <<remote>> -f
+  164  dc48d3f785f54ddb9a1655c949a5762997d4e470
+  165  git log
+  166  q
+  167  git rebase -i dc48d3f785f54ddb9a1655c949a5762997d4e470
+  168  cd
+  169  <<
+  170  >>
+  171  .
+  172  git checkout master
+  173  git push <<remote>> -f
+  174  dc48d3f785f54ddb9a1655c949a5762997d4e470
+  175  git log
+  176  q
+  177  git rebase -i dc48d3f785f54ddb9a1655c949a5762997d4e470
+  178  cd
+  179  <<
+  180  >>
+  181  .
+  182  git checkout master
+  183  git push <<remote>> -f
+  184  dc48d3f785f54ddb9a1655c949a5762997d4e470
+  185  git log
+  186  q
+  187  git rebase -i dc48d3f785f54ddb9a1655c949a5762997d4e470
+  188  cd
+  189  <<
+  190  >>
+  191  .
+  192  git checkout master
+  193  git push <<remote>> -f
+  194  dc48d3f785f54ddb9a1655c949a5762997d4e470
+  195  git log
+  196  q
+  197  git rebase -i dc48d3f785f54ddb9a1655c949a5762997d4e470
+  198  cd
+  199  <<
+  200  >>
+  201  .
+  202  git checkout master
+  203  git checkout history
+  204  pwd
+  205  git log
+  206  ls -a
+  207  cd git-basic-exercises
+  208  git log
+  209  git checkout history
+  210  git reset dc36e4a0307e3fbeb1d9b5253d7e73dd121d0f3b
+  211  git log
+  212  cat README.md
+  213  git log
+  214  rm README.md
+  215  echo "booya" > README.md
+  216  git commit -m "rewrote readme"
+  217  git restore README.md
+  218  git log
+  219  rm README.md
+  220  echo "booya" > README.md
+  221  git commit -m "rewrote readme"
+  222  git add README.md
+  223  git commit -m "rewrote readme"
+  224  git log
+  225  git checkout master
+  226  ls
+  227  git log
+  228  checkout milkshake-flavours
+  229  git checkout milkshake-flavours
+  230  ls
+  231  git log
+  232  git checkout history
+  233  ls
+  234  git log
+  235  git checkout main
+  236  git checkout master
+  237  git merge milkshake-flavours
+  238  ls
+  239  git log
+  240  git checkout history
+  241  git log
+  242  checkout milkshake-flavours
+  243  git checkout milkshake-flavours
+  244  git log
+  245  git checkout history
+  246  git merge master
+  247  git log
+  248  git checkout master
+  249  nano README.md
+  250  git merge master
+  251  git add README.md
+  252  git commit -m "Resolution of conflict"
+  253  git merge master
+  254  git log
+  255  git chout master
+  256  git checkout master
+  257  git log
+  258  git remote add origin https://github.com/Lesiba9/git-basic-exercises.git
+  259  git branch -M main
+  260  git push -u origin main
+  261  git checkout milkshake-flavours
+  262  git push --set-upstream origin milkshake-flavours
+  263  git checkout history
+  264  git push --set-upstream origin history
+  265  cd ..
+  266  cd ../
+  267  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  268  cd /c/users/masenya
+  269  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  270  cd repo-to-clone
+  271  cd a-repo-to-clone
+  272  git branch
+  273  git log
+  274  git branch -a
+  275  git checkout project/git-basic-exercises
+  276  cd /c/users/masenya/project/git-basic-exercises
+  277  cd /c/users/masenya/git-basic-exercises
+  278  git remote -v
+  279  git log
+  280  cd /c/users/masenya/a-repo-to-clone
+  281  git branch
+  282  git log
+  283  git branch -a
+  284  git checkout project/git-basic-exercises
+  285  cd /c/users/masenya
+  286  git branch
+  287  git checkout main
+  288  cd /c/users/masenya/a-repo-to-clone
+  289  git branch project/git-basic-exercises
+  290  git branch
+  291  git checkout project/git-basic-exercises
+  292  git remote -v
+  293  git log
+  294  cd /c/users/masenya/git-basic-exercises
+  295  git log
+  296  cd /c/users/masenya
+  297  mkdir this-will-be-another-repo
+  298  cd this-will-be-another-repo
+  299  git init
+  300  touch README.md
+  301  cd /c/users/masenya/git-basic-exercises
+  302  git log
+  303  touch ingone-me.db
+  304  git status
+  305  nano .gitignore
+  306  git status
+  307  git clean -n
+  308  git clean -f
+  309  touch ignore-me.db
+  310  git status
+  311  nano .gitignore
+  312  git status
+  313  mkdir large-directory-that-should-be-local-only
+  314  cd large-directory-that-should-be-local-only
+  315  touch readme.md
+  316  nano readme.md
+  317  cd ..
+  318  git status
+  319  nano .gitignore
+  320  git status
+  321  git add .gitignore
+  322  git commit -m "added .gitignore"
+  323  git push
+  324* 
+  325  cd /c/users/masenya/git-basic-exercises
+  326  git checkout master
+  327  git checkout master
+  328  git checkout main
+  329  git log
+  330  history > history.txt
